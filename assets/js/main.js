@@ -14,5 +14,14 @@ createApp({
             image: 'https://picsum.photos/200/300',
             style: 'text-center bg-dark p-5'
         }
+    },
+    methods:{
+        updateStyle(){
+            if(this.style === 'text-center bg-dark p-5'){
+                this.style = 'text-center bg-danger p-5'
+            } else {
+                this.style = 'text-center bg-dark p-5'
+            }
+        }
     }
 }).mount('#app')
