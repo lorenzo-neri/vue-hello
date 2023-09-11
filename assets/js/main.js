@@ -6,13 +6,13 @@ Aggiungere alla pagina un’immagine, presa anch’essa inserendo il percoso in 
 */
 
 const { createApp } = Vue
-        
-        createApp({
-            data() {
-                return {
-                    title: 'Hello Vue! Nice to meet you!',
-                    image: 'https://picsum.photos/200/300',
-                    style: 'text-center bg-dark p-5'
-                }
-            }
-        }).mount('#app')
+
+createApp({
+    data() {
+        return {
+            title: 'Hello Vue! Nice to meet you!',
+            image: 'https://picsum.photos/200/300',
+            style: 'text-center bg-dark p-5'
+        }
+    }
+}).mount('#app')
